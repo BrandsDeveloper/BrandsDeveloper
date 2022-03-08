@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Commissioner', sans-serif;
+}       
+
+li{
+    list-style: none;
+}
+
+a{
+    color: initial;
+    text-decoration: none;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    width: 8px; 
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #ebe8e8;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #292a2b;
+    border: 1px solid #292a2b;
+    border-radius: 30px;
+}
+
+#header input[type="checkbox"], label{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    top: 5%;
+    right: 10%;
+}
+
+#header{
+    position: fixed;
+    width: 13%;
+    height: 100vh;
+    z-index: 1;
+}
+
+header nav ul li a{
+    display: flex !important;
+    align-items: center;
+    line-height: 40px;
+    height: 55px;
+    width: 56px;
+    background-color: #f2f3f5;
+    border-radius: 50px;
+    color: #45505b;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+header nav ul li a:hover{
+    width: 100%;
+    background-color: #326273;
+    color: #f7f7f7;
+}
+
+.actived{
+    background-color: #326273; /*mudar cor*/
+    color: #f7f7f7;
+}
+
+header nav ul li a span{
+    display: none;
+}
+
+header nav ul li a:hover span{
+    display: block;
+}
+
+header nav ul li a > .p-style{
+    padding-left: 2px;
+}
+
+header nav ul li a > .p-style1{
+    padding-left: 3px;
+}
+
+header p{
+    display: none;
+}
+
+main #home::before{
+    height: 115vh;
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background: #ffffff8a;
+}
+
+main #home{
+    height: 115vh;
+    background: url("../img/Fundo3.webp") no-repeat center;
+    background-size: cover;
+}
+
+main #home .h-modify{
+    height: 100vh !important;
+}
+
+main #home .h-modify h1{
+    font-weight: 600;
+    font-family: 'Commissioner', sans-serif;
+}
+
+main #home p > span{
+    color: #326273;
+}
+
+main #home .font-modify a{
+    font-size: 0.7em;
+    color: #3f4144;
+    transition: all 0.5s;
+}
+
+main #home .font-modify a:hover{
+    color: #5C9EAD;
+}
+
+main .position-waves{
+    margin-top: -5%;
+}
+
+main .hr{
+    width: 8%;
+    border: 0.5px solid #968d8d;
+    border-radius: 3px;
+}
+
+.hr:nth-of-type(1){
+    width: 3%;
+    border: 2px solid #326273;
+    background-color: #326273;
+    position: relative;
+    top: 3px;    
+}
+
+main #sobre > div > div .img{
+    background: url(../img/eu.webp) no-repeat;
+    background-size: cover;
+}
+
+main #sobre div > h3{
+    color: #326273;
+}
+
+main #sobre div div h6{
+    color: #326273;
+    font-weight: 600;
+}
+
+main #sobre div .btn-modify > a{
+    color: inherit;
+    text-decoration: none;
+}
+
+main #sobre div .btn-modify{
+    background-color: #326273;
+}
+
+main #sobre div .btn-modify:hover{
+    background-color: #2a505f;
+}
+
+main #sobre div .btn-outline-modify{
+    color: #326273;
+    border-color: #326273;
+}
+
+main #sobre div .btn-outline-modify:hover{
+    background-color: #326273;
+    color: white;
+}
+
+main #skills div.row h3{
+    color: #326273;
+}
+
+main #skills div.row div div h6{
+    font-size: 14px;
+}
+
+main #skills div.row div div.progress{
+    height: 10px;
+}
+
+main #skills div > div.w-modify{
+    background-color: #326273;
+    height: 20px;
+    transition: all 0.5s;
+}
+
+main #skills div:nth-of-type(1) div > div.w-modify{
+    width: 80%;
+}
+
+main #skills div:nth-of-type(2) div > div.w-modify{
+    width: 73%;
+}
+
+main #skills div:nth-of-type(3) div > div.w-modify{
+    width: 48%;
+}
+
+main #skills div.select div:nth-of-type(1) div > div.w-modify{
+    width: 15%;
+}
+
+main #skills div.select div:nth-of-type(2) div > div.w-modify{
+    width: 6%;
+}
+
+main #skills div.select div:nth-of-type(3) div > div.w-modify{
+    width: 30%;
+}
+
+main #projeto h3{
+    color: #326273;
+}
+
+main #projeto div img{
+    width: 100%;
+}
+
+main #projeto div .back{
+    overflow: hidden;
+}
+
+main #projeto div .back::before{
+    content: "";
+    position: absolute;
+    background-color: #EEEEEE;
+    opacity: 0;
+    z-index: 2;
+    transition: ease-in 0.5s;
+}
+
+main #projeto .back > .backimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: ease-in 0.5s;
+    z-index: 3;
+}
+
+main #projeto div.back:hover::before{
+    top: 0;
+    left: 15px;
+    right: 15px;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+main #projeto div.back:hover .backimg{
+    opacity: 1;
+}
+
+main #projeto a{
+    color: black;
+    text-decoration: none;
+}
+
+main #projeto a:hover{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+
+main #contato .background{
+    background-color: #326273;
+    padding: 15px 18px;
+    border-radius: 50px;
+    color: #EEEEEE;
+    transition: all 0.5s;
+}
+
+main #contato div.d-flex:hover > .background{
+    background-color: #2a505f;
+}
+
+main #contato div .btn-outline-modify{
+    color: #326273;
+    background: none;
+    border-color: #326273;
+}
+
+main #contato div .btn-outline-modify:hover{
+    background-color: #326273;
+    color: white;
+}
+
+main #contato div > h4{
+    font-size: 1.3em;
+}
+
+main #contato input[type="text"], main #contato input[type="email"], main #contato input[type="tel"]{
+    height: 7vh;
+}
+
+footer{
+    background-color: #EEEEEE;
+}
+
+footer .font-modify{
+    font-weight: 800;
+}
+
+footer p{
+    font-size: 14.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+footer div a i.fa-size{
+    padding: 0px 2px;
+}
+
+footer div a{
+    background-color: #326273;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 8px 11px;
+    color: rgb(248, 248, 248);
+    transition: all 0.5s;
+}
+
+footer div a:hover{
+    background-color: #2a505f;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+@media(min-width: 300px) and (max-width: 660px){
+
+    header label{
+        display: block;
+    }
+
+    header nav{
+        position: fixed !important;
+        height: 100vh;
+        background-color: #acaeb1;
+        width: 100%;
+        z-index: 1;
+        left: -100%;
+        transition: all 0.5s;
+    }
+
+    header p{
+        display: block;
+        position: fixed !important;
+        bottom: 15px;
+        z-index: 1;
+        width: 100%;
+        left: -100%;
+        transition: all 0.5s;
+    }
+
+    header nav ul{
+        width: 100%;
+    }
+
+    header nav ul li a{
+        width: 80%;
+        justify-content: center;
+    }
+
+    header nav ul li a span{
+        display: block;
+    }
+
+    header nav p{
+        display: none;
+    }
+
+    #bars:checked ~ nav, #bars:checked ~ p{
+        left: 0%;
+    }
+
+    main #home{
+        background: url("../img/Fundo3.webp") no-repeat ;
+        background-size: cover;
+        background-position-x: 87%;
+        position: relative;
+        z-index: -1;
+        height: 100vh;
+    }
+
+    main #home h1.font-modify{
+        font-size: 2.6em;
+    }
+
+    main #sobre > div > div .img{
+        height: 46vh;
+        width: 46vh;
+        margin-bottom: 30px;
+    }
+    
+    main #skills div.row p{
+        font-size: 0.9em;
+    }
+
+    footer .font-modify{
+        font-size: 39px;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+}
