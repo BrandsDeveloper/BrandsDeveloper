@@ -1,6 +1,6 @@
 ### Olá! Eu sou Lucas Brandão
 
-#### Um dos meus objetivos é estudar e poder trabalhar na área de Front-End, aprendendo e descobrindo cada vez mais desse mundo do Desenvolvimento Web e programação.
+#### Apaixonado por desenvolvimento. Atualmente trabalhando em Front-End e buscando expandir conhecimentos em diversas linguagens e tecnologias.
 
 <div align = "left">
   <a href="https://github.com/brandsdeveloper">
