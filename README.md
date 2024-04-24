@@ -1,6 +1,6 @@
 ### Olá! Eu sou Lucas Brandão
 
-#### Um dos meus objetivos é estudar e poder trabalhar na área de Front-End, aprendendo e descobrindo cada vez mais desse mundo do Desenvolvimento Web e programação.
+#### Apaixonado por desenvolvimento. Atualmente trabalhando em Front-End e buscando expandir conhecimentos em diversas linguagens e tecnologias.
 
 <div align = "left">
   <a href="https://github.com/brandsdeveloper">
@@ -11,6 +11,10 @@
   <div style = "display: inline_block"> <br>
   <img align = "center" alt = "HTML" height = "30" width = "40" src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
   <img align = "center" alt = "Css" height = "30" width = "40" src= "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-    <img align = "center" alt = "Bootstrap" height = "30" width = "40" src= "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg">
+  <img align = "center" alt = "JavaScript" height = "30" width = "40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />          
   <img align = "center" alt = "JavaScript" height = "30" width = "40" src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+  <img align = "center" alt = "JavaScript" height = "30" width = "40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg" />            
+  <img align = "center" alt = "JavaScript" height = "30" width = "40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" />
+  <img align = "center" alt = "JavaScript" height = "30" width = "40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />       
+    
 </div>
