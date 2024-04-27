@@ -20,7 +20,7 @@ $boundary = "XYZ-" . date("dmYis") . "-ZYX";
 $corpo_mensagem = " 
 <br>Formulário de Envio <br>
 <br>--------------------------------------------<br>
-<br> <strong> Informações Preenchidas </strong> <br>
+<br> <strong> Informações Preenchidas</strong> <br>
 <br> <strong>Nome :</strong> $nome
 <br> <strong>Email:</strong> $email
 <br> <strong>Celular:</strong> $cel
