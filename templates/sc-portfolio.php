@@ -17,7 +17,7 @@ class Portfolio {
 }
 
 $args = array(
-    new Portfolio('Lion', 'Web Development', 'https://brandsdev.com.br/projetos/lion/', 'php bootstrap', 'img/portfolio/Lion.webp'),
+    new Portfolio('Lion', 'Web Development', 'https://brandsdev.com.br/projetos/lion/', 'php bootstrap', 'img/portfolio/lion.webp'),
     new Portfolio('Guinpec', 'Web Development', 'https://guinpec.com/', 'wordpress php bootstrap', 'img/portfolio/guinpec.webp'),
     new Portfolio('Torres Promotora', 'Web Development', 'https://torrespromotora.com.br', 'elementor', 'img/portfolio/Torres.webp'),
     new Portfolio('Líder Consig', 'Web Development', 'https://brandsdeveloper.github.io/BootstrapLider', 'bootstrap', 'img/portfolio/bootstrap.webp'),
