@@ -1,0 +1,28 @@
+
+
+@mixin btn( $color-border, $color-text, $bg-color, $hover-text){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid $color-border;
+    border-radius: 100%;
+    color: $color-text;
+    transition: all .3s ease;
+
+    &:hover{
+        background: $bg-color;
+        color: $hover-text;
+    }
+}
+
+@mixin particle( $tamanho, $top, $left, $right, $delay, $cor){
+    width: $tamanho;
+    height: $tamanho;
+    top: $top;
+    left: $left;
+    right: $right;
+    animation-duration: $delay;
+    background: radial-gradient(circle, $cor -10%, transparent 70%);
+}

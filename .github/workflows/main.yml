@@ -1,0 +1,20 @@
+on: 
+  push:
+    branches:
+      - main
+name: 🚀 Subindo Site
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+    
+    - name: 📂 Upload Arquivos
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.host }}
+        username: ${{ secrets.user }}
+        password: ${{ secrets.pass }}
+        server-dir: projetos/

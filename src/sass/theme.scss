@@ -1,0 +1,375 @@
+// Abstract
+@import "abstract/fonts";
+@import "abstract/variable";
+@import "abstract/bootstrap";
+@import "abstract/mixins";
+
+// Components
+// @import "components/card";
+// @import "components/swiper";
+
+// Layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/page";
+
+*{
+    font-family: $font-family-base;
+    margin: 0;
+    padding: 0; 
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500 !important;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: initial;
+    text-decoration: none;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    width: 8px; 
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #ebe8e8;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #292a2b;
+    border: 1px solid #292a2b;
+    border-radius: 30px;
+}
+
+
+
+main{
+
+    #home{
+        height: 115vh;
+        background: url("../img/Fundo3.webp") no-repeat center;
+        background-size: cover;
+
+        &::before{
+            height: 115vh;
+            content: "";
+            position: absolute;
+            bottom: 0%;
+            top: 0%;
+            left: 0%;
+            right: 0%;
+            background: #ffffff8a;
+        }
+
+        .h-modify{
+            height: 100vh !important;
+
+            h1{
+                font-weight: 600;
+                font-family: 'Commissioner', sans-serif;
+            }
+        }
+
+        p > span{
+            color: #326273;
+        }
+
+        .font-modify a{
+            font-size: 0.7em;
+            color: #3f4144;
+            transition: all 0.5s;
+
+            &:hover{
+                color: #5C9EAD;
+            }
+        }
+
+    }
+
+    .position-waves{
+        margin-top: -5%;
+    }
+
+    .hr{
+        width: 8%;
+        border: 0.5px solid #968d8d;
+        border-radius: 3px;
+        opacity: 1;
+
+        &:nth-of-type(1){
+            width: 3%;
+            border: 2px solid #326273;
+            background-color: #326273;
+            position: relative;
+            top: 3px;    
+        }
+    }
+
+    #sobre{
+
+        div {
+            
+            div{
+                .img{
+                    background: url(../img/eu.webp) no-repeat;
+                    background-size: cover;
+                }
+                
+                h6{
+                    color: #326273;
+                    font-weight: 600;
+                }
+            }
+            
+            h3{
+                color: #326273;
+            }
+
+            .btn-outline-modify{
+                color: #326273;
+                border-color: #326273;
+
+                &:hover{
+                    background-color: #326273;
+                    color: white;
+                }
+            }
+        }
+            
+        .btn-modify{
+            background-color: #326273;
+
+            a{
+                color: inherit;
+                text-decoration: none;
+            }
+
+            &:hover{
+                background-color: #2a505f;
+            }
+        } 
+    } 
+
+}
+
+main #skills div.row h3{
+    color: #326273;
+}
+
+main #skills div.row div div h6{
+    font-size: 14px;
+}
+
+main #skills div.row div div.progress{
+    height: 15px;
+    background: $light;
+}
+
+main #skills div > div.w-modify{
+    background-color: $primary;
+    height: 15px;
+    width: 0px;
+    transition: all 1s ease;
+}
+
+// main #skills div:nth-of-type(1) div > div.w-modify{
+//     width: 80%;
+// }
+
+// main #skills div:nth-of-type(2) div > div.w-modify{
+//     width: 73%;
+// }
+
+// main #skills div:nth-of-type(3) div > div.w-modify{
+//     width: 48%;
+// }
+
+// main #skills div.select div:nth-of-type(1) div > div.w-modify{
+//     width: 15%;
+// }
+
+// main #skills div.select div:nth-of-type(2) div > div.w-modify{
+//     width: 6%;
+// }
+
+// main #skills div.select div:nth-of-type(3) div > div.w-modify{
+//     width: 30%;
+// }
+
+main #projeto h3{
+    color: #326273;
+}
+
+main #projeto div img{
+    width: 100%;
+}
+
+main #projeto .back::before{
+    content: "";
+    position: absolute;
+    background-color: #EEEEEE;
+    opacity: 0;
+    z-index: 2;
+    transition: ease-in 0.5s;
+}
+
+main #projeto .back > .backimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: ease-in 0.5s;
+    z-index: 3;
+}
+
+main #projeto div.back:hover::before{
+    inset: 0;
+    opacity: 0.7;
+}
+
+main #projeto div.back:hover .backimg{
+    opacity: 1;
+}
+
+main #projeto a{
+    color: black;
+    text-decoration: none;
+}
+
+main #projeto a:hover{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+
+main #contato .background{
+    background-color: #326273;
+    padding: 15px 18px;
+    border-radius: 50px;
+    color: #EEEEEE;
+    transition: all 0.5s;
+}
+
+main #contato div.d-flex:hover > .background{
+    background-color: #2a505f;
+}
+
+main #contato div .btn-outline-modify{
+    color: #326273;
+    background: none;
+    border-color: #326273;
+}
+
+main #contato div .btn-outline-modify:hover{
+    background-color: #326273;
+    color: white;
+}
+
+main #contato div > h4{
+    font-size: 1.3em;
+}
+
+main #contato input[type="text"], main #contato input[type="email"], main #contato input[type="tel"]{
+    height: 7vh;
+}
+
+@media(min-width: 300px) and (max-width: 660px){
+
+    header label{
+        display: block;
+    }
+
+    header nav{
+        position: fixed !important;
+        height: 100vh;
+        background-color: #acaeb1;
+        width: 100%;
+        z-index: 1;
+        left: -100%;
+        transition: all 0.5s;
+    }
+
+    header p{
+        display: block;
+        position: fixed !important;
+        bottom: 15px;
+        z-index: 1;
+        width: 100%;
+        left: -100%;
+        transition: all 0.5s;
+    }
+
+    header nav ul{
+        width: 100%;
+    }
+
+    header nav ul li a{
+        width: 80%;
+        justify-content: center;
+    }
+
+    header nav ul li a span{
+        display: block;
+    }
+
+    header nav p{
+        display: none;
+    }
+
+    #bars:checked ~ nav, #bars:checked ~ p{
+        left: 0%;
+    }
+
+    main #home{
+        background: url("../img/Fundo3.webp") no-repeat ;
+        background-size: cover;
+        background-position-x: 87%;
+        position: relative;
+        z-index: -1;
+        height: 100vh;
+    }
+
+    main #home h1.font-modify{
+        font-size: 2.6em;
+    }
+
+    main #sobre > div > div .img{
+        height: 46vh;
+        width: 46vh;
+        margin-bottom: 30px;
+    }
+    
+    main #skills div.row p{
+        font-size: 0.9em;
+    }
+
+    footer .font-modify{
+        font-size: 39px;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+}
+
+
+.is-checked{
+    background-color: $primary !important;
+    color: $white !important;
+}

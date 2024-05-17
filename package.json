@@ -1,0 +1,36 @@
+{
+  "name": "brandsdeveloper",
+  "version": "1.0.0",
+  "description": "#### Apaixonado por desenvolvimento. Atualmente trabalhando em Front-End e buscando expandir conhecimentos em diversas linguagens e tecnologias.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "BrandsDeveloper"
+  },
+  "author": "Brands",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "isotope-layout": "^3.0.6",
+    "sass": "^1.77.1",
+    "scrollreveal": "^4.0.9",
+    "typed.js": "^2.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^2.0.9",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
