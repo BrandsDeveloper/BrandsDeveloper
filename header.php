@@ -12,7 +12,7 @@ $domain = $_SERVER["HTTP_HOST"];
 // $paste = $_SERVER["REQUEST_URI"];
 // $url_complete = $_SERVER["SCRIPT_URI"];
 
-$url = $protocol.$domain.$paste; 
+$url = $protocol.$domain; 
 $face = 'https://www.facebook.com/lucas.brandao.7927/';
 $insta = 'https://www.instagram.com/brandao_lucas__/';
 $git = 'https://github.com/BrandsDeveloper';
