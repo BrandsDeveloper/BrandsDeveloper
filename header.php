@@ -6,7 +6,7 @@
  * 
 **/
 
-$protocol = $_SERVER["REQUEST_SCHEME"].'://';
+$protocol = (!empty($_SERVER['REQUEST_SCHEME'])) ? $_SERVER["REQUEST_SCHEME"].'://' : 'http://';
 $domain = $_SERVER["HTTP_HOST"];
 // $paste = $_SERVER["SCRIPT_URL"];
 // $paste = $_SERVER["REQUEST_URI"];
@@ -30,8 +30,8 @@ $linkedin = 'https://www.linkedin.com/in/lucas-brand%C3%A3o-8a002b175/';
     <title> BrandsDev - Developer Fron-End</title>
     
     <!-- Favicon & CSS-->
-    <link rel="shortcut icon" href="<?= $url; ?>/img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="<?= $url; ?>/css/style.min.css">
+    <link rel="shortcut icon" href="<?= $url; ?>/projetos/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="<?= $url; ?>/projetos/css/style.min.css">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/498943cfa9.js" crossorigin="anonymous"></script>

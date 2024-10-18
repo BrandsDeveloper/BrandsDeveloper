@@ -17,17 +17,17 @@ class Portfolio {
 }
 
 $args = array(
-    new Portfolio('Lion', 'Web Development', 'https://projetos.brandsdev.com.br/lion/', 'php bootstrap', '/img/portfolio/lion.webp'),
-    new Portfolio('Guinpec', 'Web Development', 'https://guinpec.com/', 'wordpress php bootstrap', '/img/portfolio/guinpec.webp'),
-    new Portfolio('Torres Promotora', 'Web Development', 'https://torrespromotora.com.br', 'elementor', '/img/portfolio/Torres.webp'),
-    new Portfolio('Líder Consig', 'Web Development', 'https://brandsdeveloper.github.io/BootstrapLider', 'bootstrap', '/img/portfolio/bootstrap.webp'),
-    new Portfolio('Mapa Dev Week', 'Web Development', 'https://brandsdeveloper.github.io/MapaDevWeek/', 'html-css', '/img/portfolio/mapa.webp'),
-    new Portfolio('Portfólio', 'Web Development', 'https://brandsdeveloper.github.io/portifolio', 'html-css', '/img/portfolio/lider.webp'),
-    new Portfolio('Portfólio', 'Web Development', 'https://brandsdeveloper.github.io/Rocketseat_Portfolio/', 'html-css', '/img/portfolio/rocketseat.webp'),
-    new Portfolio('Estudando e Aplicando', 'Web Development', 'https://torrespromotora.com.br', 'html-css', '/img/portfolio/pesoal.webp'),
-    new Portfolio('Criando Template', 'Web Development', 'https://brandsdeveloper.github.io/template', 'html-css', '/img/portfolio/template.webp'),
-    new Portfolio('Login Líder', 'Web Development', 'https://brandsdeveloper.github.io/Login/', 'html-css', '/img/portfolio/Login.webp'),
-    new Portfolio('Cadastro e Login', 'Web Development', 'https://brandsdeveloper.github.io/Tela_login/', 'html-css', '/img/portfolio/logon.webp'),
+    new Portfolio('Lion', 'Web Development', 'https://projetos.brandsdev.com.br/lion/', 'php bootstrap', '/projetos/img/portfolio/lion.webp'),
+    new Portfolio('Guinpec', 'Web Development', 'https://guinpec.com/', 'wordpress php bootstrap', '/projetos/img/portfolio/guinpec.webp'),
+    new Portfolio('Torres Promotora', 'Web Development', 'https://torrespromotora.com.br', 'elementor', '/projetos/img/portfolio/Torres.webp'),
+    new Portfolio('Líder Consig', 'Web Development', 'https://brandsdeveloper.github.io/BootstrapLider', 'bootstrap', '/projetos/img/portfolio/bootstrap.webp'),
+    new Portfolio('Mapa Dev Week', 'Web Development', 'https://brandsdeveloper.github.io/MapaDevWeek/', 'html-css', '/projetos/img/portfolio/mapa.webp'),
+    new Portfolio('Portfólio', 'Web Development', 'https://brandsdeveloper.github.io/portifolio', 'html-css', '/projetos/img/portfolio/lider.webp'),
+    new Portfolio('Portfólio', 'Web Development', 'https://brandsdeveloper.github.io/Rocketseat_Portfolio/', 'html-css', '/projetos/img/portfolio/rocketseat.webp'),
+    new Portfolio('Estudando e Aplicando', 'Web Development', 'https://torrespromotora.com.br', 'html-css', '/projetos/img/portfolio/pesoal.webp'),
+    new Portfolio('Criando Template', 'Web Development', 'https://brandsdeveloper.github.io/template', 'html-css', '/projetos/img/portfolio/template.webp'),
+    new Portfolio('Login Líder', 'Web Development', 'https://brandsdeveloper.github.io/Login/', 'html-css', '/projetos/img/portfolio/Login.webp'),
+    new Portfolio('Cadastro e Login', 'Web Development', 'https://brandsdeveloper.github.io/Tela_login/', 'html-css', '/projetos/img/portfolio/logon.webp'),
 );
 
 ?>

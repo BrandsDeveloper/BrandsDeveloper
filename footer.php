@@ -51,8 +51,8 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 <!-- JavaScript External Utilizado Bibliotecas -->
-<script src="<?= $url; ?>/js/theme.js"></script>
-<script src="<?= $url; ?>/js/plugins.js"></script>
+<script src="<?= $url; ?>/projetos/js/theme.js"></script>
+<script src="<?= $url; ?>/projetos/js/plugins.js"></script>
 
 </body>
 

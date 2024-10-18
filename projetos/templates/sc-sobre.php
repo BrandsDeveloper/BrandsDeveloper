@@ -11,7 +11,7 @@
         <div class="row gy-4 mt-md-5 justify-content-between">
 
             <div class="col-md-5 mx-auto mx-lg-start rounded-circle">
-                <img src="<?= $url; ?>/img/eu.webp" alt="Brands" class="img-fluid">
+                <img src="<?= $url; ?>/projetos/img/eu.webp" alt="Brands" class="img-fluid">
             </div>
 
             <div class="col-md-6 d-flex flex-column justify-content-center">
